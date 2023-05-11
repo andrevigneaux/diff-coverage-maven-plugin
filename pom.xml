@@ -6,7 +6,7 @@
     <artifactId>diff-coverage-maven-plugin</artifactId>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>maven-plugin</packaging>
-    <version>0.3.1</version>
+    <version>1.0.0</version>
     <description>
         Diff coverage maven plugin builds code coverage report of new and modified code based on a provided diff
     </description>
@@ -17,23 +17,6 @@
             <url>http://www.opensource.org/licenses/mit-license.php</url>
         </license>
     </licenses>
-
-    <developers>
-        <developer>
-            <name>Sergii Gnatiuk</name>
-            <email>surpsg2012@gmail.com</email>
-        </developer>
-    </developers>
-
-    <scm>
-        <url>https://github.com/SurpSG/diff-coverage-maven-plugin</url>
-        <connection>scm:git:git://github.com/SurpSG/diff-coverage-maven-plugin.git</connection>
-        <developerConnection>scm:git:ssh://github.com/SurpSG/diff-coverage-maven-plugin.git</developerConnection>
-    </scm>
-    <issueManagement>
-        <system>Github</system>
-        <url>https://github.com/SurpSG/diff-coverage-maven-plugin/issues</url>
-    </issueManagement>
 
     <repositories>
         <repository>
@@ -105,9 +88,9 @@
         </dependency>
 
         <dependency>
-            <groupId>com.github.form-com.diff-coverage-gradle</groupId>
+            <groupId>com.github.andrevigneaux.diff-coverage-gradle</groupId>
             <artifactId>jacoco-filtering-extension</artifactId>
-            <version>0.9.5</version>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
             <groupId>org.jacoco</groupId>
